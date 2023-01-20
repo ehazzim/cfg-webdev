@@ -9,7 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
+
+    <script src="mapdata.js"></script>
+	<script src="continentmap.js"></script>
 
 </head>
 
@@ -18,7 +21,7 @@
  #header {
     height: 500px;
     background-color: white;
- }
+  }
  
  #section1 {
   height: 920px;
@@ -43,8 +46,9 @@
 </style>
 
 <body>
+<!-- Section 1: Header with interactive map (folders imported)-->
     <section id="header">
-        <h2>Header</h2>
+        <div id="map"></div>
     </section>
 
     <section id="section1">

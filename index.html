@@ -10,45 +10,70 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="mapdata.js"></script>
 	<script src="continentmap.js"></script>
 
 </head>
 
+<header> 
+
+        <div class="topnav">
+            <div class="logo-img"> <img src="https://cdn.myportfolio.com/dbc532cd-2ce1-46bd-8b29-d8e5b68ca63d/8638926c-77d2-4418-b443-b87c6b90e44e_rw_600.png?h=16019a8d2aed6bfd65d0455afe06a033"> </div>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a class="active" href="#home">Home</a>
+    
+</header>
 <style>
  
  #header {
     height: 500px;
     background-color: white;
+    font-family: 'Montserrat', sans-serif;
   }
  
  #section1 {
   height: 920px;
   background-color: coral;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #section2 {
   height: 920px;
   background-color:mediumseagreen;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #topdestinations {
   height: 920px;
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #testimonials {
   height: 450px;
   background-color:white;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
+#footer{
+
+background-color: #1C7289 ;
+font-family: 'Montserrat', sans-serif
+
+}
 </style>
 
 <body>
 <!-- Section 1: Header with interactive map (folders imported)-->
     <section id="header">
         <div id="map"></div>
+    
     </section>
 
     <section id="section1">
@@ -59,6 +84,12 @@
         <h2>Section 2</h2>
     </section>
 
+<!-- Section 2: Top Features -->
+    
+<section id="features">
+
+
+    </section>
 <!-- Section 3: Top destinations with photos and captions -->
     <section id="topdestinations">
         <p3>TOP</p3>
@@ -132,6 +163,7 @@
   <script src="https://use.fontawesome.com/1744f3f671.js"></script>
 
 </body>
+
 
 <script>
 // Section 3: click function for top destinations to move through pictures + expand captions
@@ -247,5 +279,24 @@ window.onload = function() {
 		})
 }
 </script>
+
+<!-- Section 4: Footer & Call to Action -->
+
+<footer> 
+
+    <!-- Call to Action -->
+<div class="cta">
+
+<h1 class="cta-title"> The world is waiting for you, take the first step </h1>
+
+<p class="cta-descrip"> We provide a new experience on your journey. Discover the joy of your own home! </p>
+
+<center> <button class="cta-button"> Get Started </button> </center>
+
+</div>
+
+
+   <center class="copyright"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> travelSpace </center>
+</footer>
 
 </html>

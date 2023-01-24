@@ -115,7 +115,7 @@ body {
     color: #ADD8E6;
     cursor: pointer;
     font-size: 2em;
-    top: 50%
+    top: 50%;
     -webkit-transition: all .3s ease-in-out;    
     -ms-transition: all .3s ease-in-out;    
     -moz-transition: all .3s ease-in-out;    
@@ -672,4 +672,3 @@ body {
     }
 
 }
-/* End of Testimonials styling */
